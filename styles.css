@@ -1,0 +1,455 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+    background-image: url(images/bg.jpg);
+}
+.box {
+	height: auto;
+	width: 960px;
+	clear: both;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #FFF;
+}
+.hearderKD {
+	background-image: url(images/img_hd/BDhearderKD_img.png);
+	height: 98px;
+	width: 898px;
+	padding-top: 66px;
+	padding-left: 62px;
+	background-color: #FFF;
+}
+#logo
+{
+	width: 250px;
+	height: 45px;
+	background-image: url(images/img_hd/logoKDS.png);
+	clear: right;
+	float: left;
+}
+#txtHD
+{
+	width: 350px;
+	height: 45px;
+	background-image: none;
+	clear: none;
+	float: left;
+	padding-left: 20px;
+	font-family: "Arial Rounded MT Bold";
+	font-size: 18px;
+	color: #F080A0;
+}
+
+
+
+.menuKD {
+	height: 137px;
+	width: 960px;
+}
+#subMenuKD {
+	width: 105px;
+	height: 100px;
+	clear: right;
+	float: left;
+	margin-left: 62px;
+	margin-top: 20px;
+        background-image: url(images/img_Menu/menu_01.png);
+        background-repeat: no-repeat;
+}
+#subMenuKD.active{
+        background-image: url(images/img_Menu/menu_01_Select.png);
+}
+#subMenuKD2 {
+	width: 130px;
+	height: 100px;
+	clear: right;
+	float: left;
+	margin-left: 40px;
+	text-align: center;
+	margin-top: 20px;
+        background-image: url(images/img_Menu/menu_02.png);
+        background-repeat: no-repeat;
+}
+#subMenuKD2.active{
+        background-image: url(images/img_Menu/menu_02_Select.png);
+}
+#subMenuKD3 {
+	width: 130px;
+	height: 100px;
+	clear: right;
+	float: left;
+	margin-left: 40px;
+	text-align: center;
+	margin-top: 20px;
+        background-image: url(images/img_Menu/menu_03.png);
+        background-repeat: no-repeat;
+}
+#subMenuKD3.active{
+        background-image: url(images/img_Menu/menu_03_Select.png);
+}
+#subMenuKD4 {
+	width: 130px;
+	height: 100px;
+	clear: right;
+	float: left;
+	margin-left: 40px;
+	text-align: center;
+	margin-top: 20px;
+        background-image: url(images/img_Menu/menu_04.png);
+        background-repeat: no-repeat;
+}
+#subMenuKD4.active{
+        background-image: url(images/img_Menu/menu_04_Select.png);
+}
+.slideImg {
+	height: 364px;
+	width: 897px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.BoxProduct {
+	height: 380px;
+	width: 897px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#vdoProduct{
+	width: 420px;
+	height: 250px;
+	clear: right;
+	float: left;
+	margin-left: 42px;
+}
+#txtProduct{
+	width: 435px;
+	height: 250px;
+	clear: right;
+	float: left;
+	margin-left: 0px;
+	font-family: "Arial Rounded MT Bold";
+	font-size: 16px;
+	color: #a8a8a8;
+}
+#txtIMG_Product{
+	width: 435px;
+	height: 130px;
+	clear: right;
+	float: left;
+	margin-left: 0px;
+	font-family: "Arial Rounded MT Bold";
+	font-size: 16px;
+	color: #a8a8a8;
+	padding-top: 10px;
+}
+#vdoProduct{
+	width: 420px;
+	height: 250px;
+	clear: right;
+	float: left;
+	margin-left: 42px;
+}
+#boximgProduct{
+	width: 420px;
+	height: 140px;
+	clear: right;
+	float: left;
+	margin-left: 42px;
+}
+
+
+.BoxOrder{
+	height: 100px;
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#imgOrder{
+	height: 80px;
+	width: 431px;
+	float: right;
+	font-family: "Arial Rounded MT Bold";
+	font-size: 24px;
+	text-align: center;
+	padding-top: 15px;
+	color: #EB6A7F;
+}
+.BoxProduct_Photo{
+	height: 200px;
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+	clear: both;
+}
+#imgProduct {
+	width: 116px;
+	height: 81px;
+	clear: right;
+	float: left;
+	margin-top: 15px;
+	background-color: #09F;
+}
+#imgProduct2 {
+	width: 116px;
+	height: 81px;
+	clear: right;
+	float: left;
+	padding-left: 13px;
+	background-color: #FFF;
+	margin-top: 15px;
+}
+
+.BoxAboutUs {
+	height: 300px;
+	width: 897px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#txtAboutUsHD{
+	width: 570px;
+	height: 39px;
+	font-family: "Arial Rounded MT Bold";
+	font-size: 30px;
+	font-weight: normal;
+	color: #6b7bbb;
+	margin-left: 32px;
+	margin-top: 20px;
+}
+
+#txtAboutUs{
+	width: 825px;
+	height: 220px;
+	font-family: "Arial Rounded MT Bold";
+	font-size: 16px;
+	font-weight: normal;
+	color: #a8a8a8;
+	margin-left: 32px;
+	margin-top: 10px;
+}
+.Boxteam{
+	height: 350px;
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#Boxteam01{
+	width: 204px;
+	height: 260px;
+	font-family: "Arial Rounded MT Bold";
+	font-size: 14px;
+	font-weight: normal;
+	color: #a1a0a0;
+	margin-left: 32px;
+	margin-top: 10px;
+	clear: right;
+	float: left;
+}
+
+#txtTeam{
+	width: 610px;
+	height: 225px;
+	font-family: "Arial Rounded MT Bold";
+	font-size: 16px;
+	font-weight: normal;
+	color: #a8a8a8;
+	clear: right;
+	float: left;
+	padding-top: 20px;
+	padding-left: 10px;
+	margin-top: 10px;
+}
+#imgFooter2 {
+	width: 110px;
+	height: 122px;
+	clear: none;
+	float: left;
+	margin-left: 30px;
+	background-color: #F00;
+}
+
+.BoxBody {
+	height: 422px;
+	width: 897px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 45px;
+}
+#latestNews{
+	height: 394px;
+	width: 634px;
+	background-color: #FFF;
+	clear: right;
+	float: left;
+	font-family: "Arial Rounded MT Bold";
+	font-size: 18px;
+	color: #F00;
+}
+
+#txtLatestNews{
+	width: 554px;
+	height: 39px;
+	font-family: "Arial Rounded MT Bold";
+	font-size: 30px;
+	font-weight: normal;
+	color: #65c3dd;
+	margin-left: 42px;
+	margin-top: 20px;
+}
+#txtGreenHD{
+	width: 400px;
+	height: 39px;
+	font-family: "Arial Rounded MT Bold";
+	font-size: 30px;
+	font-weight: normal;
+	color: #3fb087;
+	margin-left: 42px;
+	margin-top: 20px;
+}
+#txtLatestNews2{
+	width: 570px;
+	height: 27px;
+	font-family: "Arial Rounded MT Bold";
+	font-size: 14px;
+	font-weight: normal;
+	color: #65c3dd;
+	margin-left: 42px;
+	padding-top: 20px;
+}
+#VDO_LatestNews{
+	width: 457px;
+	height: 239px;
+	font-family: "Arial Rounded MT Bold";
+	font-size: 18px;
+	font-weight: normal;
+	color: #FFFFFF;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 25px;
+	background-color: #CCC;
+}
+#FB{
+	height: 394px;
+	width: 234px;
+	float: right;
+	clear: none;
+	color: #FFF;
+	/*background-image: url(images/img_Latest%20New/fb.png);*/
+}
+.footer {
+	height: 200px;
+	width: 850px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 20px;
+	padding-left: 42px;
+}
+#txtFooter {
+	width: 800px;
+	height: 40px;
+	font-family: "Arial Rounded MT Bold";
+	font-size: 30px;
+	font-weight: normal;
+	color: #65c3dd;
+}
+#imgFooter {
+	width: 110px;
+	height: 122px;
+	clear: right;
+	float: left;
+}
+#imgFooter2 {
+	width: 110px;
+	height: 122px;
+	clear: none;
+	float: left;
+	margin-left: 30px;
+	background-color: #FFF;
+}
+#colurTxtGreen {
+	font-family: "Arial Rounded MT Bold";
+	font-size: 18px;
+	color: #43b28a;
+	padding-top: 20px;
+}
+#colurTxtPinkHD {
+	width: 418px;
+	height: 39px;
+	font-family: "Arial Rounded MT Bold";
+	font-size: 30px;
+	font-weight: normal;
+	color: #ed697e;
+	margin-left: 42px;
+	margin-top: 20px;
+}
+#colurTxtPinkHD02 {
+	width: 400px;
+	height: 39px;
+	font-family: "Arial Rounded MT Bold";
+	font-size: 30px;
+	font-weight: normal;
+	color: #ed697e;
+
+}
+#colurTxtPink {
+	width: 570px;
+	height: 27px;
+	font-family: "Arial Rounded MT Bold";
+	font-size: 14px;
+	font-weight: normal;
+	color: #ed697e;
+	margin-left: 42px;
+	padding-top: 20px;
+}
+#colurTxtPink {
+	width: 570px;
+	height: 37px;
+	font-family: "Arial Rounded MT Bold";
+	font-size: 16px;
+	font-weight: normal;
+	color: #ed697e;
+	margin-left: 42px;
+	padding-top: 10px;
+	text-align: left;
+}
+#logo a > *{
+width: 0;
+height: 0;
+overflow: hidden;
+}
+#logo a h1{margin-top:5px;}
+#subMenuKD a > *{
+width: 0;
+height: 0;
+overflow: hidden;
+}
+#subMenuKD a h1{font-size:80px;margin-top:10px;}
+#subMenuKD2 a > *{
+width: 0;
+height: 0;
+overflow: hidden;
+}
+#subMenuKD2 a h1{font-size:80px;margin-top:10px;}
+#subMenuKD3 a > *{
+width: 0;
+height: 0;
+overflow: hidden;
+}
+#subMenuKD3 a h1{font-size:100px;margin-top:20px;}
+#subMenuKD4 a > *{
+width: 0;
+height: 0;
+overflow: hidden;
+}
+#subMenuKD4 a h1{font-size:80px;margin-top:10px;}
+#imgOrder a{color:#EB6A7F;}
+#imgOrder a:hover{color:#ccc;}
+#colurTxtPinkHD h2{font-size: 30px;}
+#colurTxtPinkHD02 h3{font-size: 28px;}
+#colurTxtPinkHD h3{font-size: 28px;}
+#colurTxtPinkHD h3{font-size: 28px;}
+.BoxAboutUs #txtAboutUsHD h2{font-size: 30px;}
+.Boxteam #txtAboutUsHD h2{font-size: 30px;}
+#colurTxtGreen a{color:#43b28a;}
+#colurTxtGreen a:hover{color:#ccc;}
+#map{width: 383px;height: 229px;}
